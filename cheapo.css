@@ -1,0 +1,116 @@
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 1.3rem;
+	background: #DCDDDF url(images/messages.png) no-repeat;
+    background-size: 1400px 800px;
+}
+#profile {
+padding:50px;
+font-size:20px;
+background-color:#DCE6F7;
+    opacity: 0.6; 
+    position: relative;
+    
+}
+#logout {
+float:right;
+}
+
+.textbox {
+	width:200px;
+	height:25px;
+	font-size: 20px;
+}
+
+
+
+#content{
+	height:200px;
+    width: 200px;
+    text-align:top;
+    padding-right: 80px;
+    padding-left: 180px;
+}
+
+#error_message{
+	margin-top: 10px;
+	color: red;
+	font-size: 15px;
+}
+
+.moption {
+	cursor: pointer;
+}
+a{
+text-decoration:none;
+color:#6495ed;
+    	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: pointer;
+	float: left;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+    text-align: center;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+    background:#fec151 url(images/mail.png) no-repeat;
+    z-index: 13;
+    padding-top: 20px;
+}
+
+#menu {
+	padding-left: 20px;
+    padding-bottom: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+    width: 100px;
+    height: 100%;
+    vertical-align: text-top;
+    font-size: 15px;
+    -webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	background-color:#eeeeee;
+}
+#inbox{
+    padding:3px;
+	color:green;
+	cursor:pointer;
+	padding:5px 5px 5px 15px;
+	width:70px;
+	color:white;
+	background-color:#123456;
+	box-shadow:1px 1px 5px grey;
+	border-radius:3px;
+}
+#sentmessage{
+    padding:3px;
+	color:green;
+	cursor:pointer;
+	padding:5px 5px 5px 15px;
+	width:70px;
+	color:white;
+	background-color:#123456;
+	box-shadow:1px 1px 5px grey;
+	border-radius:3px;
+}
